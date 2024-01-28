@@ -1,0 +1,21 @@
+li.pageLink {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  padding-bottom: 5px; 
+  transition: color 0.4s ease, border-bottom 0.4s ease;
+  border-bottom: 3px solid transparent;
+  list-style: none;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+li.pageLink:hover {
+  color: #f35748;
+  border-bottom-color: #f35748; 
+}
+
+.color{
+  background-color: #4AB7C3;
+}

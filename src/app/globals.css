@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --e-global-typography-primary-font-family: 'YourFontFamily', sans-serif;
+}
+
+html {
+  font-family: var(--e-global-typography-primary-font-family), sans-serif;
+}
