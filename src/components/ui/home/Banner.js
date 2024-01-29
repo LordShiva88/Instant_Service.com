@@ -4,6 +4,7 @@ import { FaCalendarDays } from "react-icons/fa6";
 import { ImMobile2 } from "react-icons/im";
 import video from "@/assets/vedio.png";
 import Image from "next/image";
+import Search from "./Search";
 
 const Banner = () => {
   return (
@@ -31,7 +32,7 @@ const Banner = () => {
               </p>
             </div>
 
-            <div className="flex gap-6 items-center mt-6 justify-center md:justify-start">
+            {/* <div className="flex gap-6 items-center mt-6 justify-center md:justify-start">
               <button
                 href="#_"
                 className="relative inline-flex items-center justify-center px-6 sm:px-8 md:px-10 py-3 md:py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-[#f35748] rounded-lg group text-sm sm:text-base md:text-lg"
@@ -45,10 +46,11 @@ const Banner = () => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                 <Image src={video} alt="Picture of the author" />
               </span>
-            </div>
+            </div> */}
+            <Search />
           </div>
 
-          <div className="flex flex-col md:flex-row gap-6 text-white mt-6">
+          <div className="flex flex-col md:flex-row gap-6 text-white mt-6 md:absolute md:top-0 lg:right-96 md:right-32">
             <div className="flex gap-2 items-center bg-[#4AB7C3] px-4 py-2 rounded-lg h-20 w-[250px]">
               <FaCalendarDays className="text-3xl" />
               <div className="text-sm sm:text-base md:text-lg">

@@ -1,4 +1,5 @@
-import Home from "@/components/ui/home/Banner";
+import Home from "@/components/ui/home/Home";
+
 
 const page = () => {
   return (
